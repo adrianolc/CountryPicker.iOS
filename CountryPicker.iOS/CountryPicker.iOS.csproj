@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC7135DF-B701-47A1-9972-62DDFD1B7FA6}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CountryPicker.iOS</RootNamespace>
+    <AssemblyName>CountryPicker.iOS</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|AnyCPU' ">
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CountryPicker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\Country.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\AC.png" />
+    <BundleResource Include="Resources\AD.png" />
+    <BundleResource Include="Resources\AE.png" />
+    <BundleResource Include="Resources\AF.png" />
+    <BundleResource Include="Resources\AG.png" />
+    <BundleResource Include="Resources\AI.png" />
+    <BundleResource Include="Resources\AL.png" />
+    <BundleResource Include="Resources\AM.png" />
+    <BundleResource Include="Resources\AN.png" />
+    <BundleResource Include="Resources\AO.png" />
+    <BundleResource Include="Resources\AQ.png" />
+    <BundleResource Include="Resources\AR.png" />
+    <BundleResource Include="Resources\AS.png" />
+    <BundleResource Include="Resources\AT.png" />
+    <BundleResource Include="Resources\AU.png" />
+    <BundleResource Include="Resources\AW.png" />
+    <BundleResource Include="Resources\AX.png" />
+    <BundleResource Include="Resources\AZ.png" />
+    <BundleResource Include="Resources\BA.png" />
+    <BundleResource Include="Resources\BB.png" />
+    <BundleResource Include="Resources\BD.png" />
+    <BundleResource Include="Resources\BE.png" />
+    <BundleResource Include="Resources\BF.png" />
+    <BundleResource Include="Resources\BG.png" />
+    <BundleResource Include="Resources\BH.png" />
+    <BundleResource Include="Resources\BI.png" />
+    <BundleResource Include="Resources\BJ.png" />
+    <BundleResource Include="Resources\BL.png" />
+    <BundleResource Include="Resources\BM.png" />
+    <BundleResource Include="Resources\BN.png" />
+    <BundleResource Include="Resources\BO.png" />
+    <BundleResource Include="Resources\BQ.png" />
+    <BundleResource Include="Resources\BR.png" />
+    <BundleResource Include="Resources\BS.png" />
+    <BundleResource Include="Resources\BT.png" />
+    <BundleResource Include="Resources\BV.png" />
+    <BundleResource Include="Resources\BW.png" />
+    <BundleResource Include="Resources\BY.png" />
+    <BundleResource Include="Resources\BZ.png" />
+    <BundleResource Include="Resources\CA.png" />
+    <BundleResource Include="Resources\CC.png" />
+    <BundleResource Include="Resources\CD.png" />
+    <BundleResource Include="Resources\CF.png" />
+    <BundleResource Include="Resources\CG.png" />
+    <BundleResource Include="Resources\CH.png" />
+    <BundleResource Include="Resources\CI.png" />
+    <BundleResource Include="Resources\CK.png" />
+    <BundleResource Include="Resources\CL.png" />
+    <BundleResource Include="Resources\CM.png" />
+    <BundleResource Include="Resources\CN.png" />
+    <BundleResource Include="Resources\CO.png" />
+    <BundleResource Include="Resources\CR.png" />
+    <BundleResource Include="Resources\CU.png" />
+    <BundleResource Include="Resources\CV.png" />
+    <BundleResource Include="Resources\CW.png" />
+    <BundleResource Include="Resources\CX.png" />
+    <BundleResource Include="Resources\CY.png" />
+    <BundleResource Include="Resources\CZ.png" />
+    <BundleResource Include="Resources\DE.png" />
+    <BundleResource Include="Resources\DJ.png" />
+    <BundleResource Include="Resources\DK.png" />
+    <BundleResource Include="Resources\DM.png" />
+    <BundleResource Include="Resources\DO.png" />
+    <BundleResource Include="Resources\DZ.png" />
+    <BundleResource Include="Resources\EC.png" />
+    <BundleResource Include="Resources\EE.png" />
+    <BundleResource Include="Resources\EG.png" />
+    <BundleResource Include="Resources\EH.png" />
+    <BundleResource Include="Resources\ER.png" />
+    <BundleResource Include="Resources\ES.png" />
+    <BundleResource Include="Resources\ET.png" />
+    <BundleResource Include="Resources\FI.png" />
+    <BundleResource Include="Resources\FJ.png" />
+    <BundleResource Include="Resources\FK.png" />
+    <BundleResource Include="Resources\FM.png" />
+    <BundleResource Include="Resources\FO.png" />
+    <BundleResource Include="Resources\FR.png" />
+    <BundleResource Include="Resources\FX.png" />
+    <BundleResource Include="Resources\GA.png" />
+    <BundleResource Include="Resources\GB.png" />
+    <BundleResource Include="Resources\GD.png" />
+    <BundleResource Include="Resources\GE.png" />
+    <BundleResource Include="Resources\GF.png" />
+    <BundleResource Include="Resources\GG.png" />
+    <BundleResource Include="Resources\GH.png" />
+    <BundleResource Include="Resources\GI.png" />
+    <BundleResource Include="Resources\GL.png" />
+    <BundleResource Include="Resources\GM.png" />
+    <BundleResource Include="Resources\GN.png" />
+    <BundleResource Include="Resources\GP.png" />
+    <BundleResource Include="Resources\GQ.png" />
+    <BundleResource Include="Resources\GR.png" />
+    <BundleResource Include="Resources\GS.png" />
+    <BundleResource Include="Resources\GT.png" />
+    <BundleResource Include="Resources\GU.png" />
+    <BundleResource Include="Resources\GW.png" />
+    <BundleResource Include="Resources\GY.png" />
+    <BundleResource Include="Resources\HK.png" />
+    <BundleResource Include="Resources\HM.png" />
+    <BundleResource Include="Resources\HN.png" />
+    <BundleResource Include="Resources\HR.png" />
+    <BundleResource Include="Resources\HT.png" />
+    <BundleResource Include="Resources\HU.png" />
+    <BundleResource Include="Resources\ID.png" />
+    <BundleResource Include="Resources\IE.png" />
+    <BundleResource Include="Resources\IL.png" />
+    <BundleResource Include="Resources\IM.png" />
+    <BundleResource Include="Resources\IN.png" />
+    <BundleResource Include="Resources\IO.png" />
+    <BundleResource Include="Resources\IQ.png" />
+    <BundleResource Include="Resources\IR.png" />
+    <BundleResource Include="Resources\IS.png" />
+    <BundleResource Include="Resources\IT.png" />
+    <BundleResource Include="Resources\JE.png" />
+    <BundleResource Include="Resources\JM.png" />
+    <BundleResource Include="Resources\JO.png" />
+    <BundleResource Include="Resources\JP.png" />
+    <BundleResource Include="Resources\KE.png" />
+    <BundleResource Include="Resources\KG.png" />
+    <BundleResource Include="Resources\KH.png" />
+    <BundleResource Include="Resources\KI.png" />
+    <BundleResource Include="Resources\KM.png" />
+    <BundleResource Include="Resources\KN.png" />
+    <BundleResource Include="Resources\KP.png" />
+    <BundleResource Include="Resources\KR.png" />
+    <BundleResource Include="Resources\KW.png" />
+    <BundleResource Include="Resources\KY.png" />
+    <BundleResource Include="Resources\KZ.png" />
+    <BundleResource Include="Resources\LA.png" />
+    <BundleResource Include="Resources\LB.png" />
+    <BundleResource Include="Resources\LC.png" />
+    <BundleResource Include="Resources\LI.png" />
+    <BundleResource Include="Resources\LK.png" />
+    <BundleResource Include="Resources\LR.png" />
+    <BundleResource Include="Resources\LS.png" />
+    <BundleResource Include="Resources\LT.png" />
+    <BundleResource Include="Resources\LU.png" />
+    <BundleResource Include="Resources\LV.png" />
+    <BundleResource Include="Resources\LY.png" />
+    <BundleResource Include="Resources\MA.png" />
+    <BundleResource Include="Resources\MC.png" />
+    <BundleResource Include="Resources\MD.png" />
+    <BundleResource Include="Resources\ME.png" />
+    <BundleResource Include="Resources\MF.png" />
+    <BundleResource Include="Resources\MG.png" />
+    <BundleResource Include="Resources\MH.png" />
+    <BundleResource Include="Resources\MK.png" />
+    <BundleResource Include="Resources\ML.png" />
+    <BundleResource Include="Resources\MM.png" />
+    <BundleResource Include="Resources\MN.png" />
+    <BundleResource Include="Resources\MO.png" />
+    <BundleResource Include="Resources\MP.png" />
+    <BundleResource Include="Resources\MQ.png" />
+    <BundleResource Include="Resources\MR.png" />
+    <BundleResource Include="Resources\MS.png" />
+    <BundleResource Include="Resources\MT.png" />
+    <BundleResource Include="Resources\MU.png" />
+    <BundleResource Include="Resources\MV.png" />
+    <BundleResource Include="Resources\MW.png" />
+    <BundleResource Include="Resources\MX.png" />
+    <BundleResource Include="Resources\MY.png" />
+    <BundleResource Include="Resources\MZ.png" />
+    <BundleResource Include="Resources\NA.png" />
+    <BundleResource Include="Resources\NC.png" />
+    <BundleResource Include="Resources\NE.png" />
+    <BundleResource Include="Resources\NF.png" />
+    <BundleResource Include="Resources\NG.png" />
+    <BundleResource Include="Resources\NI.png" />
+    <BundleResource Include="Resources\NL.png" />
+    <BundleResource Include="Resources\NO.png" />
+    <BundleResource Include="Resources\NP.png" />
+    <BundleResource Include="Resources\NR.png" />
+    <BundleResource Include="Resources\NU.png" />
+    <BundleResource Include="Resources\NZ.png" />
+    <BundleResource Include="Resources\OM.png" />
+    <BundleResource Include="Resources\PA.png" />
+    <BundleResource Include="Resources\PE.png" />
+    <BundleResource Include="Resources\PF.png" />
+    <BundleResource Include="Resources\PG.png" />
+    <BundleResource Include="Resources\PH.png" />
+    <BundleResource Include="Resources\PK.png" />
+    <BundleResource Include="Resources\PL.png" />
+    <BundleResource Include="Resources\PM.png" />
+    <BundleResource Include="Resources\PN.png" />
+    <BundleResource Include="Resources\PR.png" />
+    <BundleResource Include="Resources\PS.png" />
+    <BundleResource Include="Resources\PT.png" />
+    <BundleResource Include="Resources\PW.png" />
+    <BundleResource Include="Resources\PY.png" />
+    <BundleResource Include="Resources\QA.png" />
+    <BundleResource Include="Resources\RE.png" />
+    <BundleResource Include="Resources\RO.png" />
+    <BundleResource Include="Resources\RS.png" />
+    <BundleResource Include="Resources\RU.png" />
+    <BundleResource Include="Resources\RW.png" />
+    <BundleResource Include="Resources\SA.png" />
+    <BundleResource Include="Resources\SB.png" />
+    <BundleResource Include="Resources\SC.png" />
+    <BundleResource Include="Resources\SD.png" />
+    <BundleResource Include="Resources\SE.png" />
+    <BundleResource Include="Resources\SG.png" />
+    <BundleResource Include="Resources\SH.png" />
+    <BundleResource Include="Resources\SI.png" />
+    <BundleResource Include="Resources\SJ.png" />
+    <BundleResource Include="Resources\SK.png" />
+    <BundleResource Include="Resources\SL.png" />
+    <BundleResource Include="Resources\SM.png" />
+    <BundleResource Include="Resources\SN.png" />
+    <BundleResource Include="Resources\SO.png" />
+    <BundleResource Include="Resources\SR.png" />
+    <BundleResource Include="Resources\SS.png" />
+    <BundleResource Include="Resources\ST.png" />
+    <BundleResource Include="Resources\SV.png" />
+    <BundleResource Include="Resources\SX.png" />
+    <BundleResource Include="Resources\SY.png" />
+    <BundleResource Include="Resources\SZ.png" />
+    <BundleResource Include="Resources\TC.png" />
+    <BundleResource Include="Resources\TD.png" />
+    <BundleResource Include="Resources\TF.png" />
+    <BundleResource Include="Resources\TG.png" />
+    <BundleResource Include="Resources\TH.png" />
+    <BundleResource Include="Resources\TJ.png" />
+    <BundleResource Include="Resources\TK.png" />
+    <BundleResource Include="Resources\TL.png" />
+    <BundleResource Include="Resources\TM.png" />
+    <BundleResource Include="Resources\TN.png" />
+    <BundleResource Include="Resources\TO.png" />
+    <BundleResource Include="Resources\TR.png" />
+    <BundleResource Include="Resources\TT.png" />
+    <BundleResource Include="Resources\TV.png" />
+    <BundleResource Include="Resources\TW.png" />
+    <BundleResource Include="Resources\TZ.png" />
+    <BundleResource Include="Resources\UA.png" />
+    <BundleResource Include="Resources\UG.png" />
+    <BundleResource Include="Resources\UM.png" />
+    <BundleResource Include="Resources\US.png" />
+    <BundleResource Include="Resources\UY.png" />
+    <BundleResource Include="Resources\UZ.png" />
+    <BundleResource Include="Resources\VA.png" />
+    <BundleResource Include="Resources\VC.png" />
+    <BundleResource Include="Resources\VE.png" />
+    <BundleResource Include="Resources\VG.png" />
+    <BundleResource Include="Resources\VI.png" />
+    <BundleResource Include="Resources\VN.png" />
+    <BundleResource Include="Resources\VU.png" />
+    <BundleResource Include="Resources\WF.png" />
+    <BundleResource Include="Resources\WS.png" />
+    <BundleResource Include="Resources\XK.png" />
+    <BundleResource Include="Resources\YE.png" />
+    <BundleResource Include="Resources\YT.png" />
+    <BundleResource Include="Resources\YU.png" />
+    <BundleResource Include="Resources\ZA.png" />
+    <BundleResource Include="Resources\ZM.png" />
+    <BundleResource Include="Resources\ZW.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

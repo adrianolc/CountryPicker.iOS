@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{8F45EAF0-5B34-4224-91C6-F4CE465B8A2E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CountryPicker.iOS/CountryPicker.cs">
+    <Files>
+      <File FileName="CountryPicker.iOS/CountryPicker.cs" Line="21" Column="43" />
+      <File FileName="CountryPicker.iOS/Model/Country.cs" Line="3" Column="34" />
+      <File FileName="CountryPicker.Test/Main.cs" Line="1" Column="1" />
+      <File FileName="CountryPicker.Test/CountryPickerTest.cs" Line="5" Column="29" />
+      <File FileName="CountryPicker.Test/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CountryPicker.Test PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.353260EF-18D7-4639-9570-7B28153BBF86" />
+</Properties>

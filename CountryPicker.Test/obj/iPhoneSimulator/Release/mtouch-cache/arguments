@@ -1,0 +1,40 @@
+# Version: 9.6.2.4 (cycle6-xi: d8bedd0)
+# [first argument, ignore] # /Users/adriano/dev/projects/CountryPicker.iOS/CountryPicker.Test/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/bin/mtouch \
+	--cache \
+	/Users/adriano/dev/projects/CountryPicker.iOS/CountryPicker.Test/obj/iPhoneSimulator/Release/mtouch-cache \
+	--sim \
+	/Users/adriano/dev/projects/CountryPicker.iOS/CountryPicker.Test/bin/iPhoneSimulator/Release/CountryPicker.Test.app \
+	--executable \
+	CountryPicker.Test \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.0 \
+	--targetver \
+	8.1 \
+	--new-refcount \
+	--abi=i386 \
+	--symbollist \
+	/Users/adriano/dev/projects/CountryPicker.iOS/CountryPicker.Test/obj/iPhoneSimulator/Release/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.NUnitLite.dll \
+	-r \
+	/Users/adriano/dev/projects/CountryPicker.iOS/CountryPicker.iOS/bin/Release/CountryPicker.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/adriano/dev/projects/CountryPicker.iOS/CountryPicker.iOS/bin/Release/CountryPicker.iOS.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/adriano/dev/projects/CountryPicker.iOS/CountryPicker.Test/bin/iPhoneSimulator/Release//CountryPicker.Test.exe \
